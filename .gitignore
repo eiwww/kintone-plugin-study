@@ -1,0 +1,4 @@
+node_modules
+dist
+private.ppk
+package-lock.json

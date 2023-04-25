@@ -1,0 +1,86 @@
+<!-- <section class="settings">
+  <h2 class="settings-heading">Settings for test-pi</h2>
+  <p class="kintoneplugin-desc">This message is displayed on the app page after the app has been updated.</p>
+  <form class="js-submit-settings">
+    <p class="kintoneplugin-row">
+      <label for="message">
+        Message:
+        <input type="text" class="js-text-message kintoneplugin-input-text">
+      </label>
+    </p>
+    <p class="kintoneplugin-row">
+        <button type="button" class="js-cancel-button kintoneplugin-button-dialog-cancel">Cancel</button>
+        <button class="kintoneplugin-button-dialog-ok">Save</button>
+    </p>
+  </form>
+</section> -->
+
+<section>
+  <form class="js-submit-settings">
+    <!-- For reverse Number -->
+    <div class="kintoneplugin-row">
+      <label for="select_body_field" class="kintoneplugin-label">
+        Field to store Text to reverse
+        <span class="kintoneplugin-require">*</span>
+      </label>
+      <p class="kintoneplugin-desc">Please select a Text Area field</p>
+      <div class="kintoneplugin-select-outer">
+        <div class="kintoneplugin-select">
+          <select id="select_body_field" name="js-select_body_field" required>
+            <option value="">-----</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="kintoneplugin-row">
+      <label for="select_reverse_field" class="kintoneplugin-label">
+        Field to Store Reverse Text
+        <span class="kintoneplugin-require">*</span>
+      </label>
+      <p class="kintoneplugin-desc">Please select a Text field to show Reverse Text</p>
+      <div class="kintoneplugin-select-outer">
+        <div class="kintoneplugin-select">
+          <select id="select_reverse_field" name="js-select_reverse_field" required>
+            <option value="">-----</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <!-- /////////////////////////////// -->
+
+    <!--For Custom Record-->
+    <div class="kintoneplugin-row">
+      <label for="select_dropdown_field" class=""kintoneplugin-label>
+        Column that contain Conditional value
+        <span class="kintoneplugin-require">*</span>
+      </label>
+      <p class="kintoneplugin-desc">Please Choose a column field that to store conditional value</p>
+      <div class="kintoneplugin-select-outer">
+        <div class="kintoneplugin-select">
+          <select name="js-select_dropdown_field" id="select_dropdown_field" required>
+            <option value="">-----</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="kintoneplugin-row">
+      <label for="" class="kintoneplugin-label">
+        Condition Value 
+        <span class="kintoneplugin-require">*</span>
+      </label>
+      <p class="kintoneplugin-desc">Please Select status value to count row</p>
+      <div class="kintoneplugin-input-outer">
+        <div class="kintoneplugin-select">
+          <select name="js-select_dropdown_value" id="select_dropdown_value" required>
+            <option value="">-----</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <!-- /////////////////////////////// -->
+    <p class="kintoneplugin-row">
+      <button type="button" class="js-cancel-button kintoneplugin-button-dialog-cancel">Cancel</button>
+      <button class="kintoneplugin-button-dialog-ok">Save</button>
+    </p>
+  </form>
+</section>
